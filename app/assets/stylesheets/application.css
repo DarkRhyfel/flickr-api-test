@@ -62,3 +62,17 @@ body {
     border-radius: 10px;
     background-color: rgb(148, 105, 189);
 }
+
+.photo-reel {
+    margin-top: 5vh;
+    border: 2px solid rgb(37, 41, 134);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+}
+
+.flickr-photo {
+    margin: 2vh 0;
+    height: 20vh;
+}

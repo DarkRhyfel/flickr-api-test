@@ -11,4 +11,15 @@
             </div>
         <% end %>
     </div>
+    <% unless @user_photos.nil? %>
+        <% if @user_photos.empty? %>
+            <div class="empty-message">The user has no photos!</div>
+        <% else %>
+            <div class="photo-reel">
+                <% @user_photos.each do |photo| %>
+                    <%= image_tag photo, class: 'flickr-photo' %>
+                <% end %>
+            </div>
+        <% end %>
+    <% end %>
 </div>
