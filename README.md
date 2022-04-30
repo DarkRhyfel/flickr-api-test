@@ -1,24 +1,23 @@
-# README
+# Flickr API Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+Basic project to test Rails interaction with external APIs, in this case Flickr API.
 
-* Ruby version
+## Objectives
 
-* System dependencies
+- Configure a Rails project to interact with Flickr API.
+- Use a gem to make interaction with the API easier.
+- Use figaro to work with environment variables.
+- Allow user to search photos based on its id on Flickr.
 
-* Configuration
+## Technologies
 
-* Database creation
+- Ruby on Rails
+- SQLite
+- Flickr gem
+- Figaro gem
 
-* Database initialization
+### Screenshot
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![Main screen](/screenshots/2022-04-29%2019_25_07-Settings.png)
